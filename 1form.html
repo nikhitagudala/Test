@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="1form.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login Page</h2>
+        <form action="login-handler.php" method="POST">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <div class="additional-links">
+            <a href="forgot-password.html">Forgot Password?</a>
+            <span>|</span>
+    <a href="terms.html">Terms & Conditions</a>
+    <span>|</span>
+    <a href="help.html">Help</a>
+        </div>
+        <div class="signup-section">
+            <p>Don't have an account?</p>
+            <a href="signup.html" class="signup-button">Sign Up</a>
+        </div>
+    </div>
+</body>
+</html>
